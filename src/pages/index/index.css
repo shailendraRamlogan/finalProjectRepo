@@ -1,0 +1,160 @@
+.tooltip {
+  width: 200px;
+}
+text {
+  color: black;
+}
+.App {
+  padding-left: 3%;
+  padding-right: 3%;
+  border-radius: 50px;
+}
+
+.buttonRow {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 20px;
+}
+
+.buttonR {
+  float: left;
+}
+
+.buttonElement {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 14px 16px;
+  width: 200px;
+  background-color: #333;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.buttonElement:hover {
+  background-color: #111;
+  color: darkcyan;
+}
+
+.buttonElement:active {
+  background-color: black;
+}
+
+.Row {
+  display: inline-flex;
+}
+.inputFeild {
+  padding-left: 3%;
+  padding-top: 3%;
+  border-radius: 30px;
+  background-color: darkcyan;
+}
+
+.element {
+  display: inline-flexbox;
+  margin-left: 10%;
+}
+
+.firstRow {
+  display: inline-flexbox;
+}
+#userId {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+#userBox {
+  display: inline-block;
+}
+
+#language {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 140px;
+}
+
+.languageDrop {
+  display: inline-block;
+}
+
+#validate {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+#validateCheck {
+  display: inline-block;
+}
+
+#sameDirectory {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 50px;
+}
+
+.sameDirCheck {
+  display: inline-block;
+}
+
+#legit {
+  display: inline-block;
+  margin-right: 0px;
+  margin-left: 20px;
+}
+
+.legitParameter {
+  display: inline-block;
+}
+
+#matches {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 50px;
+}
+
+.matchParameter {
+  display: inline-block;
+}
+
+#comment {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 50px;
+}
+
+.commentParameter {
+  display: inline-block;
+}
+#middle {
+  background-color: darkcyan;
+  border-radius: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+input[type="checkbox"] {
+  width: 20px; /*Desired width*/
+  height: 20px; /*Desired height*/
+}
+
+.tooltip {
+  box-shadow: 3px 3px rgb(68, 68, 68);
+  border-radius: 10px;
+}
+
+.returnBox {
+  display: inline-block;
+  margin-left: 4%;
+}
+
+.inlineTextArea {
+  resize: none;
+  border: 2px solid red;
+  height: 125px;
+}

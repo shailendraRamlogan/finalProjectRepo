@@ -1,0 +1,36 @@
+.info {
+  padding-left: 3%;
+  padding-right: 3%;
+  background-color: rgb(111, 181, 184);
+  border-radius: 50px;
+  text-align: justify;
+  display: inline-block;
+}
+p {
+  font-weight: 3px;
+}
+
+.return {
+  margin-left: 20px;
+}
+
+.buttonElement2 {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 14px 16px;
+  width: 80px;
+  background-color: #333;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.buttonElement2:hover {
+  background-color: #111;
+  color: darkcyan;
+}
+
+.buttonElement2:active {
+  background-color: black;
+}

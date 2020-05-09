@@ -1,0 +1,32 @@
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 20px;
+}
+
+#navButton {
+  float: left;
+}
+
+#navButton a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 14px 16px;
+  width: 170px;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+#navButton a:hover {
+  background-color: #111;
+  color: darkcyan;
+}
+
+#navButton a:active {
+  background-color: black;
+}
