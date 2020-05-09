@@ -240,7 +240,7 @@ class Index extends Component {
               <input
                 className="commentParameter"
                 name="Option c"
-                type="number"
+                type="text"
               />
               <br />
             </div>
